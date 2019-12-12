@@ -1,0 +1,372 @@
+body,
+html,
+.body {
+  background: #ffffff !important;
+  background-color: #ffffff !important;
+}
+
+.header-container{
+  .tiny-letter{
+    padding: 0 !important;
+    p{
+      font-family: Arial,sans-serif;
+      font-size: 10px;
+      text-decoration: none;
+      text-align: center;
+    }
+  }
+
+  .top_banner{
+    width: 700px;
+    height: 129px;
+    padding: 0 !important;
+  }
+
+  .header-menu{
+    .makeup{
+      width: 243px !important;
+      height: 43px;
+      padding: 0 !important;
+      img{
+        float: right;
+      }
+    }
+    .skincare{
+      width: 117px;
+      height: 43px;
+      padding: 0 !important;
+    }
+    .fragrance{
+      width: 128px;
+      height: 43px;
+      padding: 0 !important;
+    }
+    .gifts{
+      width: 212px;
+      height: 43px;
+      padding: 0 !important;
+    }
+  }
+
+  .points{
+    border-top: 1px solid #8c8c8c;
+    border-bottom: 1px solid #8c8c8c;
+    padding: 10px 0 !important;
+    th{
+      font-family: Georgia,'Times New Roman',Times,serif;
+      font-size: 13px;
+      line-height: 16px;
+      letter-spacing: 0.05em;
+      text-align: center;
+      a{
+        color: #000000;
+      }
+    }
+  }
+}
+
+.email-body{
+  .promotion{
+    padding: 0 !important;
+    img{
+      width: 700px !important;
+    }
+  }
+
+  .breaking_beauty{
+    padding: 0 !important;
+  }
+
+  .p1{
+    padding: 0 !important;
+  }
+
+  .product{
+    padding: 0 !important;
+
+    img{
+      width: 280px;
+    }
+
+    .red_new{
+      &.short{
+        .for_short{
+          padding-bottom: 42px !important;
+        }
+      }
+
+      .columns{
+        padding-bottom: 12px !important;
+      }
+
+      span{
+        font-family: Helvetica,Arial,sans-serif;
+        font-size: 20px;
+        color: #cb0c0b;
+        letter-spacing: 0.1em;
+      }
+    }
+
+    .product_brand{
+      .columns{
+        padding: 0 !important;
+      }
+      span{
+        font-family: Helvetica,Arial,sans-serif;
+        font-size: 20px;
+        letter-spacing: 0.01em;
+        color: #000000;
+      }
+    }
+
+    .product_name{
+      span{
+        line-height: 25px;
+        font-family: Helvetica,Arial,sans-serif;
+        font-size: 20px;
+        letter-spacing: 0.01em;
+        color: #000000;
+      }
+    }
+  }
+
+  .shop_to_redeem{
+    padding: 0 !important;
+  }
+
+  .spot_it{
+    padding: 0 !important;
+  }
+
+  .shop_now{
+    padding: 0 !important;
+  }
+}
+
+.footer-container{
+  .black{
+    padding: 0 !important;
+  }
+
+  .bottom_points{
+    border-bottom: 1px solid #bfbfbf;
+    .points_info{
+      padding: 10px 0;
+      border-right: 1px solid #bfbfbf;
+      th{
+        font-family: Georgia,'Times New Roman',Times,serif;
+        font-size: 13px;
+        line-height: 13px;
+        text-align: center;
+      }
+
+      .row{
+        .columns{
+          padding-bottom: 4px !important;
+        }
+      }
+    }
+
+    .status_info{
+      padding: 10px 0;
+      border-right: 1px solid #bfbfbf;
+      th{
+        font-family: Georgia,'Times New Roman',Times,serif;
+        font-size: 13px;
+        line-height: 13px;
+        text-align: center;
+
+        b{
+          font-size: 21px;
+          line-height: 21px;
+        }
+      }
+
+      .row{
+        .columns{
+          padding-bottom: 4px !important;
+        }
+      }
+    }
+
+    .view_your_benefits{
+      padding: 10px 0;
+      th{
+        font-family: Georgia,'Times New Roman',Times,serif;
+        font-size: 13px;
+        line-height: 13px;
+        text-align: center;
+
+        b{
+          font-size: 10px;
+          line-height: 15px;
+          letter-spacing: 0.1em;
+        }
+      }
+
+      .row{
+        .columns{
+          padding-bottom: 4px !important;
+        }
+      }
+    }
+  }
+
+  .download_app{
+    padding: 0 !important;
+  }
+
+  .bottom_banner {
+    padding: 0 !important;
+  }
+}
+
+.social-container{
+  .social-columns{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    img{
+      margin: 0 auto;
+    }
+  }
+
+  .links_bottom{
+    th{
+      padding: 0 !important;
+    }
+
+    .find-a-store{
+      img{
+        width: 242px;
+        height: 31px;
+      }
+    }
+
+    .gallery{
+      img{
+        width: 181px;
+        height: 31px;
+        margin: 0 auto;
+      }
+    }
+
+    .free-sample{
+      img{
+        width: 271px;
+        height: 31px;
+      }
+    }
+  }
+}
+
+.information{
+  .middle-info{
+    th{
+      text-align: center;
+    }
+  }
+}
+
+.footer_bottom{
+  .row{
+    & > tbody > tr > th{
+      padding: 0 25px !important;
+    }
+  }
+  th{
+    padding: 0 !important;
+  }
+}
+
+@media only screen and (max-width: 716px) {
+  table.body .columns, table.body .column{
+    // padding-left: 0 !important;
+    // padding-right: 0 !important;
+  }
+
+  .header-container{
+    .header-menu{
+      .makeup{
+        img{
+          float: left !important;
+        }
+      }
+    }
+  }
+}
+
+
+@media only screen and (max-width: 596px) {
+  table.body .columns, table.body .column{
+    // padding-left: 16px !important;
+    // padding-right: 16px !important;
+  }
+
+  .header-container{
+    .header-menu{
+      .makeup{
+        img{
+          float: left !important;
+        }
+      }
+    }
+  }
+
+  .product{
+    span{
+      font-size: 16px !important;
+    }
+
+    .product_brand{
+      span{
+        font-size: 16px !important;
+      }
+    }
+
+    .product_name{
+      span{
+        font-size: 16px !important;
+      }
+    }
+  }
+
+  .social-container{
+    .links_bottom{
+      .find-a-store{
+        img{
+          height: 22px;
+        }
+      }
+
+      .gallery{
+        img{
+          height: 22px;
+        }
+      }
+
+      .free-sample{
+        img{
+          height: 22px;
+        }
+      }
+    }
+  }
+
+  .information{
+    .middle-info{
+      & > table > tbody > tr > th {
+        font{
+          font-size: 9px !important;
+        }
+      }
+    }
+  }
+
+  .footer_bottom{
+    .footer-columns{
+      font{
+        font-size: 9px !important;
+      }
+    }
+  }
+}
