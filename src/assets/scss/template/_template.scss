@@ -3,6 +3,9 @@ html,
 .body {
   background: #ffffff !important;
   background-color: #ffffff !important;
+  word-wrap: normal;
+  word-break: keep-all;
+  hyphens: none;
 }
 
 .header-container{
